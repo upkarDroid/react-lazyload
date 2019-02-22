@@ -1,7 +1,9 @@
 /**
  * react-lazyload
  */
-import React, { Component, PropTypes } from 'react';
+import PropTypes from 'prop-types';
+
+import React, { Component } from 'react';
 import ReactDom from 'react-dom';
 import { on, off } from './utils/event';
 import scrollParent from './utils/scrollParent';
